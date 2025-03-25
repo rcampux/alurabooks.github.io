@@ -141,8 +141,8 @@
     
     .lista-menu__item:hover {
         background: var(--azul-degrade);
-        -webkit-background-clip: text;
-        color: transparent; /* garante que o fundo será visível */
+/*         -webkit-background-clip: text;
+ */        color: transparent; /* garante que o fundo será visível */
     }
     
     .lista-menu__item:hover .lista-menu__link {
