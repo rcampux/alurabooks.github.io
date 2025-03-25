@@ -141,10 +141,16 @@
     
     .lista-menu__item:hover {
         background: var(--azul-degrade);
-        color: var(--branco); /* Define a cor correta do texto */
+        -webkit-background-clip: text;
+        color: transparent; /* garante que o fundo será visível */
+    }
+    
+    .lista-menu__item:hover .lista-menu__link {
         -webkit-text-fill-color: var(--branco);
+        color: var(--branco);
         text-decoration: none;
     }
+    
        
     
 }
